@@ -5,16 +5,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  
+  <div class="container">
+    <header class="page-head">
+    <!--  <img class="page-head__image" src="images/desktop/image-header.jpg">-->
+      <nav class="page-head__navbar">
+        <div class="page-head__logo"><img src="images/logo.svg"></div>
+        <ul class="page-head__menu">
+          <li><a>About</a></li>
+          <li><a>Services</a></li>
+          <li><a>Projects</a></li>
+          <li><a class="page-head__menu-li-contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <h1 class="page-head__slogan">WE ARE CREATIVES</h1>
+      <img class="page-head__icon" src="images/icon-arrow-down.svg">
+    </header>
+    <div class="about-us">
+      <div class="about-us__text">
+        <h2 class="about-us__text-title">Transform your brand</h2>
+        <p class="about-us__text-paragraph">We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <a class="about-us__text-link" href="#">LEARN MORE</a>
+      </div>
+      <img class="about-us__img" src="images/desktop/image-transform.jpg">
+      <img class="about-us__img" src="images/desktop/image-stand-out.jpg">
+      <div class="about-us__text">
+        <h2 class="about-us__text-title">Stand out to the right audience</h2>
+        <p class="about-us__text-paragraph">Using a collaborative formula of designers, researchers, photographers, 
+          videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+        <a class="about-us__text-link" href="#">LEARN MORE</a>
+      </div>
+    </div>
+    <div class="services">
+      <div class="services__service-1">
+        <div class="services__image"></div>
+        <div class="services__text"></div>
+      </div>
+      <div class="services__service-2">
+        <div class="services__image"></div>
+        <div class="services__text"></div>
+      </div>
+    </div>
+    <div class="testimonials">
+      <div class="testimonials__card testimonials__card_1">
+        <div class="testimonials__image"> </div>
+        <div class="testimonials__testimony"> </div>
+        <div class="testimonials__footer">
+          <span class="testimonials__name"></span>
+          <span class="testimonials__role"></span>
+        </div>
+      </div>
+      <div class="testimonials__card testimonials__card_2">
+        <div class="testimonials__image"> </div>
+        <div class="testimonials__testimony"> </div>
+        <div class="testimonials__footer">
+          <span class="testimonials__name"></span>
+          <span class="testimonials__role"></span>
+        </div>
+      </div>
+      <div class="testimonials__card testimonials__card_3">
+        <div class="testimonials__image"> </div>
+        <div class="testimonials__testimony"> </div>
+        <div class="testimonials__footer">
+          <span class="testimonials__name"></span>
+          <span class="testimonials__role"></span>
+        </div>
+      </div>
+    </div>
+    <div class="mosaic">
+      <img class="mosaic__image" src="images/desktop/image-gallery-milkbottles.jpg">
+      <img class="mosaic__image" src="images/desktop/image-gallery-orange.jpg">
+      <img class="mosaic__image" src="images/desktop/image-gallery-cone.jpg">
+      <img class="mosaic__image" src="images/desktop/image-gallery-sugarcubes.jpg">
+    </div>
+    <footer class="page-foot">
+
+    </footer>
+  </div>
+
+
+
   About
   Services
   Projects
@@ -27,11 +110,11 @@
   We are a full-service creative agency specializing in helping brands grow fast. 
   Engage your clients through compelling visuals that do most of the marketing for you.
 
-  Learn more
+  
 
-  Stand out to the right audience
+  
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+  
 
   Learn more
 
@@ -60,9 +143,6 @@
   Projects
   Contact
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  
 </body>
 </html>
