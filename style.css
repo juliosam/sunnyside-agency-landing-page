@@ -18,6 +18,7 @@
 
 body { margin: 0;}
 
+
 .page-head{
     width: 100%;
     height: 50vw;
@@ -27,10 +28,6 @@ body { margin: 0;}
     padding-top: 40px;
 }
 
-.page-head__image{
-    width: 100%;
-    position: absolute;
-}
 
 .page-head__navbar{
     width: calc(100% - 60px);
@@ -44,6 +41,12 @@ body { margin: 0;}
     width: 170px;
 }
 
+.page-head__menu-icon{
+    display: none;
+}
+
+.page-head__menu-background-image{display: none;}
+
 .page-head__menu{
     padding: 0;
     margin: 0;
@@ -56,7 +59,7 @@ body { margin: 0;}
     margin: 0 18px;
 }
 
-.page-head__menu li .page-head__menu-li-contact {
+.page-head__menu-li-contact {
     font-size: 1.02rem;
     color: var(--very-dark-grayish-blue);
     font-family: 'Fraunces';
@@ -241,5 +244,179 @@ body { margin: 0;}
     margin: 0 14px;
 }
 
+@media(max-width:1150px){
+    .services >*{ 
+        padding: 21vw 12vw 5vw 12vw; 
+    }
+
+}
+
+@media(max-width:1050px){
+    .services >*{ 
+        padding: 21vw 7vw 5vw 7vw; 
+    }
+
+    .about-us__text{
+        padding: 5vw 5vw 5vw 5vw;
+    }
+
+}
+
+@media(max-width:950px){
+
+    body{
+        width: 100%;
+    }
+
+    .container{
+        width: 375px; 
+        margin: 0 auto;}
+
+    .page-head{
+        height: 525px;
+        background-image: url(./images/mobile/image-header.jpg);
+        background-size: 100%;
+        padding-top: 30px;
+    }
+
+    .page-head__navbar{margin-left: 15px;}
+
+    .page-head__logo img{
+        width: 7rem;
+    }
+    .page-head__menu-icon{
+        display: inline;
+    }
+
+    .page-head__menu-background-image{
+         display: block;
+         position: absolute;
+         width: 294px;
+         height: 330px;
+         left: 40px;
+         top: 65px;
+         display: none;
+        }
+
+    .pressed{
+        display: block;
+    } 
+
+    .page-head__menu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 180px;
+        top: 150px;
+        left: 95px;  
+        display: none;
+    }
+
+    .pressedto{
+        display: flex;
+    }
+
+    .page-head__menu li{color: var(--very-dark-desaturated-blue);}
+
+    .page-head__menu-li-contact{ 
+        margin-top: 30px;
+         background-color: var(--yellow);
+         color: black;
+        }
+
+    .page-head__slogan {
+        font-size: 2.3rem;
+        margin: 75px 0 75px 0;
+        letter-spacing: 0.25rem;
+        font-weight: 900;
+    }
+
+    .about-us{
+        height: 1450px;
+        text-align: center;
+    }
+
+    .about-us >*{
+        width: 100%;
+        height: 300px;
+        order: 2;
+    }
+
+    .about-us__img_first{ order: 1;}
+
+    .about-us__text{
+        height: 425px;
+    }
+
+    .about-us__text-title{
+        font-size: 2rem;
+        margin: 1.2rem 0 1.5rem 0;
+    }
+
+    .about-us__text-paragraph{
+        margin-bottom: 1.5rem;
+    }
+
+    .services{
+        flex-wrap: wrap;
+        height: 1200px;
+    }
+
+    .services>*{
+        width: 100%;
+        padding: 375px 22px 19px 22px;
+    }
+
+    .services__service-1{
+        background-image: url(./images/mobile/image-graphic-design.jpg);
+        height: 600px;
+    }
+
+    .services__service-2{
+        background-image: url(./images/mobile/image-photography.jpg);
+        height: 600px;
+    }
+
+    .testimonials{
+        height: 1080px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials__title{
+        margin: 40px 0 40px 0;
+        font-size: 0.92rem;
+    }
+
+    .testimonials__card{
+        width: 100%;
+        height: 262px;
+        margin-bottom: 50px;
+    }
+
+    .testimonials__testimony{
+        line-height: 1.8rem;
+        margin:25px 0 25px 0;
+    }
+
+    .mosaic>*{
+        width: 50%;
+        height: 210px;}
+
+    .page-foot{
+        height: 320px;
+    }
+
+    .page-foot__logo img{
+        width: 160px;
+        margin: 65px 0 35px 0;
+    }
+
+    .page-foot__social{
+        margin-top: 80px ;
+    }
+
+
+}
 
 
