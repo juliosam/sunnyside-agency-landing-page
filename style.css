@@ -259,9 +259,10 @@ body { margin: 0;}
     .services >*{ 
         padding: 21vw 12vw 5vw 12vw; 
     }
+
     .testimonials__card{ height: 40vw ;}
+
     .testimonials__title{ margin-top: 5vw;}
-    
 }
 
 
@@ -273,13 +274,9 @@ body { margin: 0;}
 
 @media(max-width:950px){
 
-    body{
-        width: 100%;
-    }
+    body{width: 100%;}
 
-    .container{
-        width: 375px; 
-        margin: 0 auto;}
+    .container{width: 375px; margin: 0 auto;}
 
     .page-head{
         height: 525px;
@@ -290,12 +287,9 @@ body { margin: 0;}
 
     .page-head__navbar{margin-left: 15px;}
 
-    .page-head__logo img{
-        width: 7rem;
-    }
-    .page-head__menu-icon{
-        display: inline;
-    }
+    .page-head__logo img{ width: 7rem;}
+
+    .page-head__menu-icon{display: inline;}
 
     .page-head__menu-background-image{
          display: block;
@@ -307,9 +301,7 @@ body { margin: 0;}
          display: none;
         }
 
-    .pressed{
-        display: block;
-    } 
+    .pressed{ display: block;} 
 
     .page-head__menu{
         position: absolute;
@@ -341,10 +333,7 @@ body { margin: 0;}
         font-weight: 900;
     }
 
-    .about-us{
-        height: 1450px;
-        text-align: center;
-    }
+    .about-us{ height: 1450px; text-align: center;}
 
     .about-us >*{
         width: 100%;
@@ -354,28 +343,15 @@ body { margin: 0;}
 
     .about-us__img_first{ order: 1;}
 
-    .about-us__text{
-        height: 425px;
-    }
+    .about-us__text{ height: 425px;}
 
-    .about-us__text-title{
-        font-size: 2rem;
-        margin: 1.2rem 0 1.5rem 0;
-    }
+    .about-us__text-title{ font-size: 2rem; margin: 1.2rem 0 1.5rem 0;}
 
-    .about-us__text-paragraph{
-        margin-bottom: 1.5rem;
-    }
+    .about-us__text-paragraph{ margin-bottom: 1.5rem;}
 
-    .services{
-        flex-wrap: wrap;
-        height: 1200px;
-    }
+    .services{flex-wrap: wrap;height: 1200px;}
 
-    .services>*{
-        width: 100%;
-        padding: 375px 22px 19px 22px;
-    }
+    .services>*{ width: 100%;padding: 375px 22px 19px 22px;}
 
     .services__service-1{
         background-image: url(./images/mobile/image-graphic-design.jpg);
@@ -387,15 +363,9 @@ body { margin: 0;}
         height: 600px;
     }
 
-    .testimonials{
-        height: 1080px;
-        margin-bottom: 10px;
-    }
+    .testimonials{height: 1080px; margin-bottom: 10px;}
 
-    .testimonials__title{
-        margin: 40px 0 40px 0;
-        font-size: 0.92rem;
-    }
+    .testimonials__title{ margin: 40px 0 40px 0; font-size: 0.92rem;}
 
     .testimonials__card{
         width: 100%;
@@ -403,28 +373,15 @@ body { margin: 0;}
         margin-bottom: 50px;
     }
 
-    .testimonials__testimony{
-        line-height: 1.8rem;
-        margin:25px 0 25px 0;
-    }
+    .testimonials__testimony{ line-height: 1.8rem; margin:25px 0 25px 0;}
 
-    .mosaic>*{
-        width: 50%;
-        height: 210px;}
+    .mosaic>*{  width: 50%; height: 210px;}
 
-    .page-foot{
-        height: 320px;
-    }
+    .page-foot{ height: 320px;}
 
-    .page-foot__logo img{
-        width: 160px;
-        margin: 65px 0 35px 0;
-    }
+    .page-foot__logo img{ width: 160px; margin: 65px 0 35px 0;}
 
-    .page-foot__social{
-        margin-top: 80px ;
-    }
-
+    .page-foot__social{ margin-top: 80px ;}
 
 }
 
