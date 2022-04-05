@@ -115,6 +115,24 @@ body { margin: 0;}
     font-size: 0.9rem;
     font-weight: 900;
     color: black;
+    text-decoration-style: inherit;
+    text-decoration-thickness: 5px;
+}
+
+.about-us__text-link_first{
+    text-decoration-color:hsl(51, 100%, 49%, 30%);
+}
+
+.about-us__text-link_first:hover{
+    text-decoration-color: var(--yellow);
+}
+
+.about-us__text-link_second{
+    text-decoration-color:hsl(7, 99%, 70%, 30%);
+}
+
+.about-us__text-link_second:hover{
+    text-decoration-color: var(--soft-red);
 }
 
 .services{ width: 100%; height: 40vw; display:flex;}
