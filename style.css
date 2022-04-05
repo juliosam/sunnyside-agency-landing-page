@@ -37,20 +37,13 @@ body { margin: 0;}
     margin-left: 40px;
 }
 
-.page-head__logo img{
-    width: 170px;
-}
+.page-head__logo img{ width: 170px;}
 
-.page-head__menu-icon{
-    display: none;
-}
+.page-head__menu-icon{ display: none;}
 
 .page-head__menu-background-image{display: none;}
 
-.page-head__menu{
-    padding: 0;
-    margin: 0;
-}
+.page-head__menu{padding: 0; margin: 0;}
 
 .page-head__menu li {
     display: inline;
@@ -58,6 +51,8 @@ body { margin: 0;}
     font-size: 1.1rem;
     margin: 0 18px;
 }
+
+.page-head__menu li:hover { cursor: pointer; color: hsl(189, 83%, 91%);}
 
 .page-head__menu-li-contact {
     font-size: 1.02rem;
@@ -68,6 +63,11 @@ body { margin: 0;}
     border-radius: 30px;
 }
 
+.page-head__menu-li-contact:hover { 
+    background-color: hsl(0, 0%, 100%, 30%);
+     color: white;
+    }
+
 .page-head__slogan {
     font-family: 'Fraunces';
     color: var(--white);
@@ -76,9 +76,7 @@ body { margin: 0;}
     letter-spacing: 0.6rem;
 }
 
-.page-head__icon {
-    height: 6rem;
-}
+.page-head__icon {height: 6rem;}
 
 .about-us{
     width: 100%;
@@ -87,14 +85,9 @@ body { margin: 0;}
     flex-wrap: wrap;
 }
 
-.about-us > *{
-    width: 50%;
-    height: 40vw;
-}
+.about-us > *{ width: 50%; height: 40vw;}
 
-.about-us__text{
-    padding: 9vw 7vw 8vw 9vw;
-}
+.about-us__text{ padding: 9vw 7vw 8vw 9vw;}
 
 .about-us__text-title{
     font-family: 'Fraunces';
@@ -119,20 +112,18 @@ body { margin: 0;}
     text-decoration-thickness: 5px;
 }
 
-.about-us__text-link_first{
-    text-decoration-color:hsl(51, 100%, 49%, 30%);
-}
+.about-us__text-link_first{text-decoration-color:hsl(51, 100%, 49%, 30%);}
 
 .about-us__text-link_first:hover{
     text-decoration-color: var(--yellow);
+    cursor:pointer;
 }
 
-.about-us__text-link_second{
-    text-decoration-color:hsl(7, 99%, 70%, 30%);
-}
+.about-us__text-link_second{ text-decoration-color:hsl(7, 99%, 70%, 30%);}
 
 .about-us__text-link_second:hover{
     text-decoration-color: var(--soft-red);
+    cursor:pointer;
 }
 
 .services{ width: 100%; height: 40vw; display:flex;}
@@ -162,9 +153,7 @@ body { margin: 0;}
     font-weight: 900;
 }
 
-.services__description{
-    line-height: 1.5rem;
-}
+.services__description{line-height: 1.5rem;}
 
 .testimonials {
      width: 100%; 
@@ -196,10 +185,7 @@ body { margin: 0;}
     text-align: center;
 }
 
-.testimonials__image img{
-    width: 4.4rem;
-    border-radius: 2.2rem;
-}
+.testimonials__image img{width: 4.4rem; border-radius: 2.2rem;}
 
 .testimonials__testimony{
     margin: 4vw 0 4vw 0;
@@ -207,7 +193,6 @@ body { margin: 0;}
     line-height: 1.5rem;
     font-size: 1.1rem;
 }
-
 
 .testimonials__name{
     margin: 0.6vw 0 0.7vw 0;
@@ -221,16 +206,13 @@ body { margin: 0;}
     color: var(--grayish-blue);
 }
 
-
 .mosaic{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.mosaic>*{
-    width: 25%;
-}
+.mosaic>*{ width: 25%;}
 
 .page-foot {
     background-color: rgb(124, 206, 199);
@@ -238,12 +220,18 @@ body { margin: 0;}
     height: 25vw;
 }
 
+.page-foot > * :hover{cursor: pointer; color: hsl(0, 0%, 100%);}
+
 .page-foot__menu{ margin: 0; padding: 0;}
 
 .page-foot__logo img{
     width: 12.5vw;
     margin: 5vw 0 3vw 0;
     filter: invert(0%) sepia(63%) saturate(700%) hue-rotate(90deg) brightness(48%) contrast(156%);
+}
+
+.page-foot__logo img:hover{
+    filter: invert(0%) sepia(63%) saturate(700%) hue-rotate(90deg) brightness(100%) contrast(156%);
 }
 
 
@@ -262,22 +250,25 @@ body { margin: 0;}
     margin: 0 14px;
 }
 
+.page-foot__social li a img:hover {
+    filter: invert(0%) sepia(100%) saturate(100%) hue-rotate(0deg) brightness(200%) contrast(156%);
+}
+
+
 @media(max-width:1150px){
     .services >*{ 
         padding: 21vw 12vw 5vw 12vw; 
     }
-
+    .testimonials__card{ height: 40vw ;}
+    .testimonials__title{ margin-top: 5vw;}
+    
 }
 
+
 @media(max-width:1050px){
-    .services >*{ 
-        padding: 21vw 7vw 5vw 7vw; 
-    }
+    .services >*{ padding: 21vw 7vw 5vw 7vw; }
 
-    .about-us__text{
-        padding: 5vw 5vw 5vw 5vw;
-    }
-
+    .about-us__text{padding: 5vw 5vw 5vw 5vw;}
 }
 
 @media(max-width:950px){
